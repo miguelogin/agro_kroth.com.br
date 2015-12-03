@@ -1,0 +1,1302 @@
+ body {
+	background-color: #95bde1;
+	background-image: url(images/bgIndex.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1369px;
+	 height: 1128px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+#fechar
+{
+	 left: 341px; 
+	 top: 220px; 
+	 position: absolute; 
+	 width: 675px;
+	 height: 320px;
+	 z-index: 13;
+}
+
+#agro3
+{
+	 left: 341px; 
+	 top: 248px; 
+	 position: absolute; 
+	 width: 675px;
+	 height: 320px;
+	 z-index: 13;
+}
+
+ #bg 
+{ 
+	 left: 0px; 
+	 top: 380px; 
+	 position: absolute; 
+	 width: 1369px;
+	 height: 748px;
+	 z-index:1;
+} 
+
+ #bgRodape 
+{ 
+	 left: 133px; 
+	 top: 1040px; 
+	 position: absolute; 
+	 width: 1103px;
+	 height: 49px;
+	 z-index:2;
+} 
+
+ #dados 
+{ 
+	 left: 341px; 
+	 top: 1048px; 
+	 position: absolute; 
+	 width: 675px;
+	 height: 32px;
+	 z-index:3;
+} 
+
+ #twitter 
+{ 
+	 left: 878px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 358px;
+	 height: 223px;
+	 z-index:4;
+} 
+
+ #intagram 
+{ 
+	 left: 506px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 358px;
+	 height: 223px;
+	 z-index:5;
+} 
+
+ #facebook 
+{ 
+	 left: 133px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 358px;
+	 height: 223px;
+	 z-index:6;
+} 
+
+ #caixa2 
+{ 
+	 left: 694px; 
+	 top: 388px; 
+	 position: absolute; 
+	 width: 675px;
+	 height: 359px;
+	 z-index:7;
+} 
+
+ #caixa1 
+{ 
+	 left: 133px; 
+	 top: 388px; 
+	 position: absolute; 
+	 width: 541px;
+	 height: 359px;
+	 z-index:8;
+} 
+
+ #banner 
+{ 
+	 left: 133px; 
+	 top: 128px; 
+	 position: absolute; 
+	 width: 1103px;
+	 height: 223px;
+	 z-index:9;
+} 
+
+ #bgMenu 
+{ 
+	 background-image: url(images/bgMenu.png);
+	 left: -331px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 2063px;
+	 height: 110px;
+	 z-index:10;
+} 
+
+ #contato 
+{ 
+	 left: 1015px; 
+	 top: 42px; 
+	 position: absolute; 
+	 width: 168px;
+	 height: 28px;
+	 z-index:11;
+} 
+
+ #produtos 
+{ 
+	 left: 685px; 
+	 top: 42px; 
+	 position: absolute; 
+	 width: 190px;
+	 height: 28px;
+	 z-index:12;
+} 
+
+ #home 
+{ 
+	 left: 454px; 
+	 top: 42px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 28px;
+	 z-index:13;
+} 
+
+ #agroKroth 
+{ 
+	 left: 189px; 
+	 top: 6px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 98px;
+	 z-index:14;
+} 
+
+/* COMPRA CSS */
+
+ #bgForm 
+{ 
+	 left: 93px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 1183px;
+	 height: 835px;
+	 z-index:4;
+} 
+
+ #boleto 
+{ 
+	 background-image: url(images/boleto.png);
+	 left: 325px; 
+	 top: 841px; 
+	 position: absolute; 
+	 width: 642px;
+	 height: 103px;
+	 z-index:5;
+} 
+
+ #boleto:hover
+{ 
+	 background-image: url(images/boletoSelected.png);
+	 left: 322px; 
+	 top: 838px; 
+	 position: absolute; 
+	 width: 648px;
+	 height: 109px;
+	 z-index:5;
+} 
+
+ #telefoneCompraForm 
+{ 
+	 left: 159px; 
+	 top: 762px; 
+	 position: absolute; 
+	 width: 414px;
+	 height: 45px;
+	 z-index:8;
+} 
+
+ #telefoneCompra 
+{ 
+	 left: 169px; 
+	 top: 728px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 22px;
+	 z-index:9;
+} 
+
+ #enderecoCompraForm 
+{ 
+	 left: 159px; 
+	 top: 665px; 
+	 position: absolute; 
+	 width: 897px;
+	 height: 45px;
+	 z-index:10;
+} 
+
+ #enderecoCompra 
+{ 
+	 left: 170px; 
+	 top: 633px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 27px;
+	 z-index:11;
+} 
+
+ #nomeCompraForm 
+{ 
+	 left: 159px; 
+	 top: 568px; 
+	 position: absolute; 
+	 width: 515px;
+	 height: 45px;
+	 z-index:12;
+} 
+
+ #nomeCompra 
+{ 
+	 left: 166px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 22px;
+	 z-index:13;
+} 
+
+ #greyTotal 
+{ 
+	 left: 93px; 
+	 top: 439px; 
+	 position: absolute; 
+	 width: 1183px;
+	 height: 56px;
+	 z-index:14;
+} 
+
+ #total 
+{ 
+	 left: 524px; 
+	 top: 451px; 
+	 position: absolute; 
+	 width: 322px;
+	 height: 32px;
+	 z-index:15;
+} 
+
+ #borda 
+{ 
+	 left: 147px; 
+	 top: 155px; 
+	 position: absolute; 
+	 width: 1063px;
+	 height: 263px;
+	 z-index:16;
+} 
+
+ #mais02 
+{ 
+	 left: 635px; 
+	 top: 234px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 35px;
+	 z-index:17;
+} 
+
+ #mais01 
+{ 
+	 left: 384px; 
+	 top: 234px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 35px;
+	 z-index:18;
+} 
+
+ #Cdescricao03 
+{ 
+	 left: 696px; 
+	 top: 316px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:19;
+} 
+
+ #Cfoto03 
+{ 
+	 left: 757px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:20;
+} 
+
+ #Cprice03 
+{ 
+	 left: 697px; 
+	 top: 343px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:21;
+} 
+
+ #Cprice02 
+{ 
+	 left: 447px; 
+	 top: 343px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:22;
+} 
+
+ #Cdescricao02 
+{ 
+	 left: 446px; 
+	 top: 316px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:23;
+} 
+
+ #Cfoto02 
+{ 
+	 left: 507px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:24;
+} 
+
+ #Cprice01 
+{ 
+	 left: 197px; 
+	 top: 343px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:25;
+} 
+
+ #Cdescricao01 
+{ 
+	 left: 196px; 
+	 top: 316px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:26;
+} 
+
+ #Cfoto01 
+{ 
+	 left: 257px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:27;
+} 
+
+/* CONTATO CSS */
+
+
+ #formBack 
+{ 
+	 left: 93px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 1183px;
+	 height: 620px;
+	 z-index:4;
+} 
+
+ #messageForm 
+{ 
+	 left: 159px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width: 665px;
+	 height: 307px;
+	 z-index:5;
+} 
+
+ #mensagem 
+{ 
+	 left: 168px; 
+	 top: 368px; 
+	 position: absolute; 
+	 width: 152px;
+	 height: 22px;
+	 z-index:6;
+} 
+
+ #emailForm 
+{ 
+	 left: 159px; 
+	 top: 305px; 
+	 position: absolute; 
+	 width: 414px;
+	 height: 45px;
+	 z-index:7;
+} 
+
+ #email 
+{ 
+	 left: 169px; 
+	 top: 273px; 
+	 position: absolute; 
+	 width: 109px;
+	 height: 22px;
+	 z-index:8;
+} 
+
+ #nameForm 
+{ 
+	 left: 159px; 
+	 top: 208px; 
+	 position: absolute; 
+	 width: 414px;
+	 height: 45px;
+	 z-index:9;
+} 
+
+ #nome 
+{ 
+	 left: 168px; 
+	 top: 176px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 22px;
+	 z-index:10;
+} 
+
+ #enviar 
+{ 
+	 background-image: url(images/enviar.png);
+	 left: 364px; 
+	 top: 754px; 
+	 position: absolute; 
+	 width: 642px;
+	 height: 103px;
+	 z-index:5;
+} 
+
+ #enviar:hover
+{ 
+	 background-image: url(images/enviarSelected.png);
+	 left: 361px; 
+	 top: 751px; 
+	 position: absolute; 
+	 width: 648px;
+	 height: 109px;
+	 z-index:6;
+} 
+
+/* PRODUTOS CSS */
+
+
+ #bgNumbers 
+{ 
+	 left: 460px; 
+	 top: 988px; 
+	 position: absolute; 
+	 width: 450px;
+	 height: 38px;
+	 z-index:4;
+} 
+
+ #numbers 
+{ 
+	 left: 488px; 
+	 top: 996px; 
+	 position: absolute; 
+	 width: 392px;
+	 height: 26px;
+	 z-index:5;
+} 
+
+ #bg15 
+{ 
+	 left: 1052px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:6;
+} 
+
+ #grey15 
+{ 
+	 left: 1052px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:7;
+} 
+
+ #price15 
+{ 
+	 left: 1085px; 
+	 top: 882px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:8;
+} 
+
+ #descricao15 
+{ 
+	 left: 1083px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:9;
+} 
+
+ #foto15 
+{ 
+	 left: 1144px; 
+	 top: 709px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:10;
+} 
+
+ #bg14 
+{ 
+	 left: 811px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:11;
+} 
+
+ #grey14 
+{ 
+	 left: 811px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:12;
+} 
+
+ #price14 
+{ 
+	 left: 844px; 
+	 top: 882px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:13;
+} 
+
+ #descricao14 
+{ 
+	 left: 842px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:14;
+} 
+
+ #foto14 
+{ 
+	 left: 903px; 
+	 top: 709px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:15;
+} 
+
+ #bg13 
+{ 
+	 left: 573px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:16;
+} 
+
+ #grey13 
+{ 
+	 left: 573px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:17;
+} 
+
+ #price13 
+{ 
+	 left: 606px; 
+	 top: 882px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:18;
+} 
+
+ #descricao13 
+{ 
+	 left: 604px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:19;
+} 
+
+ #foto13 
+{ 
+	 left: 665px; 
+	 top: 709px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:20;
+} 
+
+ #bg12 
+{ 
+	 left: 333px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:21;
+} 
+
+ #grey12 
+{ 
+	 left: 333px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:22;
+} 
+
+ #price12 
+{ 
+	 left: 366px; 
+	 top: 882px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:23;
+} 
+
+ #descricao12 
+{ 
+	 left: 364px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:24;
+} 
+
+ #foto12 
+{ 
+	 left: 425px; 
+	 top: 709px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:25;
+} 
+
+ #bg11 
+{ 
+	 left: 93px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:26;
+} 
+
+ #grey11 
+{ 
+	 left: 93px; 
+	 top: 878px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:27;
+} 
+
+ #price11 
+{ 
+	 left: 126px; 
+	 top: 882px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:28;
+} 
+
+ #descricao11 
+{ 
+	 left: 124px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:29;
+} 
+
+ #foto11 
+{ 
+	 left: 185px; 
+	 top: 709px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:30;
+} 
+
+ #bg10 
+{ 
+	 left: 1052px; 
+	 top: 414px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:31;
+} 
+
+ #grey10 
+{ 
+	 left: 1052px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:32;
+} 
+
+ #price10 
+{ 
+	 left: 1085px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:33;
+} 
+
+ #descricao10 
+{ 
+	 left: 1083px; 
+	 top: 575px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:34;
+} 
+
+ #foto10 
+{ 
+	 left: 1144px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:35;
+} 
+
+ #bg09 
+{ 
+	 left: 811px; 
+	 top: 414px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:36;
+} 
+
+ #grey09 
+{ 
+	 left: 811px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:37;
+} 
+
+ #price09 
+{ 
+	 left: 844px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:38;
+} 
+
+ #descricao09 
+{ 
+	 left: 842px; 
+	 top: 575px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:39;
+} 
+
+ #foto09 
+{ 
+	 left: 903px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:40;
+} 
+
+ #bg08 
+{ 
+	 left: 573px; 
+	 top: 414px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:41;
+} 
+
+ #grey08 
+{ 
+	 left: 573px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:42;
+} 
+
+ #price08 
+{ 
+	 left: 606px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:43;
+} 
+
+ #descricao08 
+{ 
+	 left: 604px; 
+	 top: 575px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:44;
+} 
+
+ #foto08 
+{ 
+	 left: 665px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:45;
+} 
+
+ #bg07 
+{ 
+	 left: 333px; 
+	 top: 414px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:46;
+} 
+
+ #grey07 
+{ 
+	 left: 333px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:47;
+} 
+
+ #price07 
+{ 
+	 left: 366px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:48;
+} 
+
+ #descricao07 
+{ 
+	 left: 364px; 
+	 top: 575px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:49;
+} 
+
+ #foto07 
+{ 
+	 left: 425px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:50;
+} 
+
+ #bg06 
+{ 
+	 left: 93px; 
+	 top: 414px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:51;
+} 
+
+ #grey06 
+{ 
+	 left: 93px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:52;
+} 
+
+ #price06 
+{ 
+	 left: 126px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:53;
+} 
+
+ #descricao06 
+{ 
+	 left: 124px; 
+	 top: 575px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:54;
+} 
+
+ #foto06 
+{ 
+	 left: 185px; 
+	 top: 429px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:55;
+} 
+
+ #bg05 
+{ 
+	 left: 1052px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:56;
+} 
+
+ #grey05 
+{ 
+	 left: 1052px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:57;
+} 
+
+ #price05 
+{ 
+	 left: 1085px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:58;
+} 
+
+ #descricao05 
+{ 
+	 left: 1083px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:59;
+} 
+
+ #foto05 
+{ 
+	 left: 1144px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:60;
+} 
+
+ #bg04 
+{ 
+	 left: 811px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:61;
+} 
+
+ #grey04 
+{ 
+	 left: 811px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:62;
+} 
+
+ #price04 
+{ 
+	 left: 844px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:63;
+} 
+
+ #descricao04 
+{ 
+	 left: 842px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:64;
+} 
+
+ #foto04 
+{ 
+	 left: 903px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:65;
+} 
+
+ #bg03 
+{ 
+	 left: 573px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:66;
+} 
+
+ #grey03 
+{ 
+	 left: 573px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:67;
+} 
+
+ #price03 
+{ 
+	 left: 606px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:68;
+} 
+
+ #descricao03 
+{ 
+	 left: 604px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:69;
+} 
+
+ #foto03 
+{ 
+	 left: 665px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:70;
+} 
+
+ #bg02 
+{ 
+	 left: 333px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:71;
+} 
+
+ #grey02 
+{ 
+	 left: 333px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:72;
+} 
+
+ #price02 
+{ 
+	 left: 366px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:73;
+} 
+
+ #descricao02 
+{ 
+	 left: 364px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:74;
+} 
+
+ #foto02 
+{ 
+	 left: 425px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:75;
+} 
+
+ #bg01 
+{ 
+	 left: 93px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:76;
+} 
+
+ #selected 
+{ 
+	 left: 93px; 
+	 top: 134px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 263px;
+	 z-index:77;
+} 
+
+ #grey01 
+{ 
+	 left: 93px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 56px;
+	 z-index:78;
+} 
+
+ #price01 
+{ 
+	 left: 126px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 49px;
+	 z-index:79;
+} 
+
+ #descricao01 
+{ 
+	 left: 124px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 10px;
+	 z-index:80;
+} 
+
+ #foto01 
+{ 
+	 left: 185px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 135px;
+	 z-index:81;
+} 
+
+
+
+#f:active {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
